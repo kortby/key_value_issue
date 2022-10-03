@@ -16,3 +16,11 @@ How can I be able to display all the json data?
 ## Setup
 
 `php artisan migrate:fresh --seed`
+`php artisan nova:user`
+`php artisan serve`
+
+`http://127.0.0.1:8000/prescreening`
+answers the questions
+
+`http://127.0.0.1:8000/nova/resources/users/1`
+notice `keyValue::make('answers')` doesn't work properly 
