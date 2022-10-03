@@ -64,7 +64,7 @@ class QuestionSeeder extends Seeder
                 'question' => $questions[$i],
                 'is_yes_no_question' => $yes_or_no[$i],
                 'note' => $notes[$i],
-                'user_id' => 3
+                'user_id' => 1
             ]);
         }
     }
