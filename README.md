@@ -24,3 +24,6 @@ answers the questions
 
 `http://127.0.0.1:8000/nova/resources/users/1`
 notice `keyValue::make('answers')` doesn't work properly 
+
+####location
+https://github.com/kortby/key_value_issue/blob/main/app/Nova/User.php#L68
